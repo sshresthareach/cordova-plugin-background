@@ -9,7 +9,7 @@ interface BackgroundFetch {
         config: {[key: string]: string}
     ): void,
     finish(
-        status: number
+        status?: number
     ): void,
     start(
         successCallback: () => void,
