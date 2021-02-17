@@ -18,7 +18,7 @@
     </engines>
 
     <js-module src="www/BackgroundFetch.js" name="BackgroundFetch">
-        <clobbers target="window.BackgroundFetch" />
+        <clobbers target="cordova.plugins.backgroundFetch" />
     </js-module>
 
     <platform name="ios">
