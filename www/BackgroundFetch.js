@@ -40,7 +40,7 @@ module.exports = {
 
     configure: function(callback, failure, config) {
         if (typeof(callback) !== 'function') {
-            throw "BackgroundFetch configure error:  You must provide a callback function as 1st argument";
+            throw "REACHLog: BackgroundFetch configure error:  You must provide a callback function as 1st argument";
         }
         config = config || {};
         failure = failure || function() {};
